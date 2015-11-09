@@ -1,4 +1,4 @@
-# duotone-denim syntax theme for Atom
+# duotone-denim syntax
 
 ## Description
 
