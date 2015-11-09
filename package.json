@@ -1,16 +1,17 @@
 {
-  "name": "duotone-dark-syntax",
+  "name": "duotone-denim-syntax",
   "theme": "syntax",
-  "version": "0.4.0",
-  "description": "A dark DuoTone syntax theme",
+  "version": "0.2.0",
+  "description": "A denim DuoTone syntax theme",
   "keywords": [
     "dark",
-    "purple",
+    "denim",
+    "blue",
     "gold",
     "duotone",
     "syntax"
   ],
-  "repository": "https://github.com/simurai/duotone-dark-syntax",
+  "repository": "https://github.com/varemenos/duotone-denim-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">1.0.0"
