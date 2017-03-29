@@ -11,13 +11,13 @@
 
 
 // Mixins -----------------------------------
-.punctuation-mixin(@color:@uno-4) {
-  .punctuation,
-  .bracket,
-  .brace {
+.syntax--punctuation-mixin(@color:@uno-4) {
+  .syntax--punctuation,
+  .syntax--bracket,
+  .syntax--brace {
     color: @color;
   }
-  .string .punctuation {
+  .syntax--string .syntax--punctuation {
     .duo-3();
   }
 }
@@ -27,52 +27,52 @@
 
 // this basically matches everything without a specific scope
 // so we put it first
-.meta {
+.syntax--meta {
   .uno-4();
 }
 
-.html.elements,
-.entity,
-.tag,
-.function-call {
+.syntax--html.syntax--elements,
+.syntax--entity,
+.syntax--tag,
+.syntax--function-call {
   .uno-1();
 }
 
-.variable,
-.character.escape,
-.html.attribute-name,
-.css.pseudo-element {
+.syntax--variable,
+.syntax--character.syntax--escape,
+.syntax--html.syntax--attribute-name,
+.syntax--css.syntax--pseudo-element {
   .uno-2();
 }
 
-.support {
+.syntax--support {
   .uno-3();
 }
 
 
 // Duo hue -----------------------------------
-.string,
-.constant,
-.storage.type {
+.syntax--string,
+.syntax--constant,
+.syntax--storage.type {
   .duo-1();
 }
 
-.keyword,
-.storage {
+.syntax--keyword,
+.syntax--storage {
   .duo-2();
 }
 
 
 // Punctuation -----------------------------------
-.punctuation-mixin();
+.syntax--punctuation-mixin();
 
 
 // Comments -----------------------------------
-.comment {
+.syntax--comment {
   .uno-4();
 }
 
 
 // Text styles -----------------------------------
-.bold { font-weight: bold; }
-.italic { font-style: italic; }
+.syntax--bold { font-weight: bold; }
+.syntax--italic { font-style: italic; }

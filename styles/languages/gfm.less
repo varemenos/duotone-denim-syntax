@@ -1,32 +1,32 @@
 // GF MarkDown
 
-.gfm {
+.syntax--gfm {
   .uno-1();
-  .punctuation-mixin();
+  .syntax--punctuation-mixin();
 
-  &.markup,
-  & .link {
+  &.syntax--markup,
+  & .syntax--link {
     .uno-2();
   }
-  &.markup.raw,
-  &.markup .support {
+  &.syntax--markup.syntax--raw,
+  &.syntax--markup .syntax--support {
     .duo-3();
   }
 
-  &.variable,
-  &.entity {
+  &.syntax--variable,
+  &.syntax--entity {
     .duo-1();
   }
-  &.support  { .duo-2(); }
-  &.comment  { .duo-3(); }
+  &.syntax--support  { .duo-2(); }
+  &.syntax--comment  { .duo-3(); }
 
-  &.heading-1 { .duo-1(); }
-  &.heading-2 { .duo-2(); }
-  &.heading-3 { .uno-1(); }
-  &.heading-4 { .uno-2(); }
-  &.heading-5 { .uno-3(); }
-  &.heading-6 { .uno-4(); }
+  &.syntax--heading-1 { .duo-1(); }
+  &.syntax--heading-2 { .duo-2(); }
+  &.syntax--heading-3 { .uno-1(); }
+  &.syntax--heading-4 { .uno-2(); }
+  &.syntax--heading-5 { .uno-3(); }
+  &.syntax--heading-6 { .uno-4(); }
 
-  &.bold   { .bold(); }
-  &.italic { .italic(); }
+  &.syntax--bold   { .syntax--bold(); }
+  &.syntax--italic { .syntax--italic(); }
 }
